@@ -1,4 +1,5 @@
 include: "*.view.lkml"
+
 connection: "thelook"
 
 explore: order_items {
