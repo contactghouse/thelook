@@ -1,17 +1,21 @@
 ---
-title: Issues - 0⛔ 1⚠️  
+title: No Issues
 navigation: true
 ---
 <p style="text-align:right;color:#cccs">
-Generated Mon, 07 Jan 2019 15:56:24 GMT
-<br><a href="http://18.130.122.52:8080/job/look_at_me_sideways/3/">Build Log</a>
+Generated Mon, 07 Jan 2019 16:02:21 GMT
+<br><a href="http://18.130.122.52:8080/job/look_at_me_sideways/4/">Build Log</a>
 </p>
 
 
+<p>No issues to report</p>
 
-<details style="margin-left: 3em" open="open">
+
+
+
+<details style="margin-left: 3em" >
 <summary style="margin-left:-1em;border-bottom:solid 1px #333;">
-<b>Issues</b>
+<b>Exemptions</b>
 (
 
  1⚠️ 
@@ -23,6 +27,17 @@ Generated Mon, 07 Jan 2019 15:56:24 GMT
 <details style="margin-left: 3em" open="open">
 <summary style="margin-left:-1em;border-bottom:solid 1px #333;">
 <b><a href="https://fabio-looker.github.io/look-at-me-sideways/rules.html#f4">F4</a>. Description or hidden</b>
+(
+
+ 1⚠️ 
+)
+</summary>
+
+
+
+<details style="margin-left: 3em" open="open">
+<summary style="margin-left:-1em;border-bottom:solid 1px #333;">
+<b>SKU field is self descriptive</b>
 (
 
  1⚠️ 
@@ -53,6 +68,7 @@ Generated Mon, 07 Jan 2019 15:56:24 GMT
 </details>
 
 
+</details>
 
 
 
