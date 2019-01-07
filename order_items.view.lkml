@@ -1,17 +1,17 @@
 view: order_items {
   sql_table_name: public.order_items ;;
 
-  dimension: order_id {
-    type: number
-    hidden: yes
-    sql: ${TABLE}.order_id ;;
-  }
-
   dimension: pk1_order_item_id {
     hidden: yes
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+  }
+
+  dimension: order_id {
+    type: number
+    hidden: yes
+    sql: ${TABLE}.order_id ;;
   }
 
   dimension: inventory_item_id {
