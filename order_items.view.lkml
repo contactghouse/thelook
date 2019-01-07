@@ -1,17 +1,17 @@
 view: order_items {
   sql_table_name: public.order_items ;;
 
-  dimension: 1pk_order_item_id {
-    hidden: yes
-    primary_key: yes
-    type: number
-    sql: ${TABLE}.id ;;
-  }
-
   dimension: order_id {
     type: number
     hidden: yes
     sql: ${TABLE}.order_id ;;
+  }
+
+  dimension: order_item_id {
+    hidden: yes
+    primary_key: yes
+    type: number
+    sql: ${TABLE}.id ;;
   }
 
   dimension: inventory_item_id {
@@ -112,24 +112,24 @@ view: order_items {
     sql: ${TABLE}.status ;;
   }
 
-  measure: count {
-    description: "Count"
-    type: count
-    filters: {
-        field: order_item_id
-        value: "not null"
-    }
-    drill_fields: [
-      order_item_id,
-      created_time,
-      shipped_time,
-      delivered_time,
-      returned_time,
-      sale_price,
-      status,
-      products.name
-    ]
-  }
+  # measure: count {
+  #   description: "Count"
+  #   type: count
+  #   filters: {
+  #       field: order_item_id
+  #       value: "not null"
+  #   }
+  #   drill_fields: [
+  #     order_item_id,
+  #     created_time,
+  #     shipped_time,
+  #     delivered_time,
+  #     returned_time,
+  #     sale_price,
+  #     status,
+  #     products.name
+  #   ]
+  # }
 
   measure: total_sale_price {
     description: "Sum of sale price"

@@ -23,7 +23,6 @@ view: products {
   }
 
   dimension: sku {
-    description: "Product SKU"
     type: string
     sql: ${TABLE}.sku ;;
   }
