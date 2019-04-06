@@ -1,6 +1,6 @@
 include: "*.view.lkml"
 
-connection: "thelook"
+connection: "thelook_dev"
 
 explore: order_items {
   join: orders {
