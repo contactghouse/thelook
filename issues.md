@@ -3,8 +3,8 @@ title: No Issues
 navigation: true
 ---
 <p style="text-align:right;color:#cccs">
-Generated Mon, 07 Jan 2019 16:02:21 GMT
-<br><a href="http://18.130.122.52:8080/job/look_at_me_sideways/4/">Build Log</a>
+Generated Sat, 06 Apr 2019 20:02:29 GMT
+<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/11/">Build Log</a>
 </p>
 
 
@@ -26,7 +26,7 @@ Generated Mon, 07 Jan 2019 16:02:21 GMT
 
 <details style="margin-left: 3em" open="open">
 <summary style="margin-left:-1em;border-bottom:solid 1px #333;">
-<b><a href="https://fabio-looker.github.io/look-at-me-sideways/rules.html#f4">F4</a>. Description or hidden</b>
+<b><a href="https://looker-open-source.github.io/look-at-me-sideways/rules.html#f4">F4</a>. Description or hidden</b>
 (
 
  1⚠️ 
