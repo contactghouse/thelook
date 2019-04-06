@@ -15,12 +15,6 @@ explore: order_items {
     relationship: many_to_one
   }
 
-  join: user_order_facts {
-    sql_on: ${user_order_facts.1pk_user_id} = ${user_order_facts.1pk_user_id} ;;
-    type: left_outer
-    relationship: one_to_one
-  }
-
   join: inventory_items {
     sql_on: ${inventory_items.1pk_inventory_item_id} = ${order_items.inventory_item_id} ;;
     type: left_outer
@@ -48,8 +42,6 @@ explore: order_items {
 explore: products { }
 
 explore: orders { }
-
-explore: user_order_facts { }
 
 explore: users {
   fields: [ALL_FIELDS*, -users.distance_from_distribution_center]
