@@ -3,8 +3,8 @@ title: No Issues
 navigation: true
 ---
 <p style="text-align:right;color:#cccs">
-Generated Sat, 06 Apr 2019 20:23:07 GMT
-<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/14/">Build Log</a>
+Generated Sat, 06 Apr 2019 20:24:20 GMT
+<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/15/">Build Log</a>
 </p>
 
 
