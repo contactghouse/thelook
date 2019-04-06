@@ -4,7 +4,7 @@ connection: "thelook"
 
 explore: order_items {
   join: orders {
-    sql_on: ${pk1_orders.order_id} = ${order_items.order_id} ;;
+    sql_on: ${orders.pk1_order_id} = ${order_items.order_id} ;;
     type: left_outer
     relationship: many_to_one
   }
