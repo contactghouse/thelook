@@ -1,10 +1,10 @@
 ---
-title: Issues - 1⛔ 0⚠️  
+title: Issues - 1⛔ 1⚠️  
 navigation: true
 ---
 <p style="text-align:right;color:#cccs">
-Generated Sat, 06 Apr 2019 19:51:29 GMT
-<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/9/">Build Log</a>
+Generated Sat, 06 Apr 2019 19:56:36 GMT
+<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/10/">Build Log</a>
 </p>
 
 
@@ -14,53 +14,6 @@ Generated Sat, 06 Apr 2019 19:51:29 GMT
 <b>Issues</b>
 (
    1⛔ 
-
-)
-</summary>
-
-
-
-<details style="margin-left: 3em" open="open">
-<summary style="margin-left:-1em;border-bottom:solid 1px #333;">
-<b><a href="https://looker-open-source.github.io/look-at-me-sideways/rules.html#e2">E2</a>. Primary keys used</b>
-(
-   1⛔ 
-
-)
-</summary>
-
-<table style="border:solid 1px #ccc">
-<thead style="background-color:darkblue;color:white"><tr>
-<th>Level</th>
-<th>Location</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-
-<tr>
-<td>⛔</td>
-<td>model:e_commerce&#47;explore:order_items&#47;join:orders <a href="&#47;projects&#47;thelook&#47;files&#47;e_commerce.model.lkml" style="text-decoration: none">⧉</a></td>
-<td>No PKs dimensions used for orders in orders join</td>
-</tr>
-
-</tbody>
-</table>
-
-
-</details>
-
-
-</details>
-
-
-
-
-
-<details style="margin-left: 3em" >
-<summary style="margin-left:-1em;border-bottom:solid 1px #333;">
-<b>Exemptions</b>
-(
-
  1⚠️ 
 )
 </summary>
@@ -70,17 +23,6 @@ Generated Sat, 06 Apr 2019 19:51:29 GMT
 <details style="margin-left: 3em" open="open">
 <summary style="margin-left:-1em;border-bottom:solid 1px #333;">
 <b><a href="https://looker-open-source.github.io/look-at-me-sideways/rules.html#f4">F4</a>. Description or hidden</b>
-(
-
- 1⚠️ 
-)
-</summary>
-
-
-
-<details style="margin-left: 3em" open="open">
-<summary style="margin-left:-1em;border-bottom:solid 1px #333;">
-<b>field is self-descriptive</b>
 (
 
  1⚠️ 
@@ -108,10 +50,40 @@ Generated Sat, 06 Apr 2019 19:51:29 GMT
 </details>
 
 
+
+<details style="margin-left: 3em" open="open">
+<summary style="margin-left:-1em;border-bottom:solid 1px #333;">
+<b><a href="https://looker-open-source.github.io/look-at-me-sideways/rules.html#k1">K1</a>. Primary keys required</b>
+(
+   1⛔ 
+
+)
+</summary>
+
+<table style="border:solid 1px #ccc">
+<thead style="background-color:darkblue;color:white"><tr>
+<th>Level</th>
+<th>Location</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+
+<tr>
+<td>⛔</td>
+<td>view: orders <a href="&#47;projects&#47;thelook&#47;files&#47;orders.view.lkml#view:orders" style="text-decoration: none">⧉</a></td>
+<td>No Primary Key Dimensions found in orders</td>
+</tr>
+
+</tbody>
+</table>
+
+
 </details>
 
 
 </details>
+
+
 
 
 
