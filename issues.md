@@ -3,8 +3,8 @@ title: Issues - 1⛔ 1⚠️
 navigation: true
 ---
 <p style="text-align:right;color:#cccs">
-Generated Mon, 08 Apr 2019 14:38:36 GMT
-<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/27/">Build Log</a>
+Generated Mon, 08 Apr 2019 19:47:14 GMT
+<br><a href="http://ec2-35-177-185-218.eu-west-2.compute.amazonaws.com:8080/job/look_at_me_sideways/29/">Build Log</a>
 </p>
 
 
