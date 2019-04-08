@@ -1,7 +1,7 @@
 view: order_items {
   sql_table_name: public.order_items ;;
 
-  dimension: pk1_order_item_id {
+  dimension: order_item_id {
     hidden: yes
     primary_key: yes
     type: number
