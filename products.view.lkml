@@ -23,6 +23,10 @@ view: products {
   }
 
   dimension: sku {
+    # LAMS
+    # rule_exemptions: {
+    #   F4: "dimension is self descriptive"
+    # }
     type: string
     sql: ${TABLE}.sku ;;
   }
